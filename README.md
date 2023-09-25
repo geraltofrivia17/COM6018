@@ -8,7 +8,7 @@ This repository contains the teaching materials and other resources for the modu
 
 If you are taking this module please see the [module website](https://vle.shef.ac.uk/ultra/courses/_108012_1/cl/outline) for more information and please use `git` to clone this repository to your own computer. The repository will be updated throughout the module and you will need to `git pull` regularly to get the latest materials.
 
-The materials in this repository are also available in Jupyter book format at [https://jonbarker.github.io/COM6018/](https://jonbarker.github.io/COM6018/).
+The materials in this repository are also available in Jupyter book format at [https://uos-com-6018.github.io/COM6018/](https://uos-com-6018.github.io/COM6018/).
 
 ## Contents
 
