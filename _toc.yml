@@ -15,6 +15,6 @@ parts:
   - caption: Lab Classes
     chapters:
       - file: materials/labs/000_Welcome.ipynb
-  - caption: Solutions
-    chapters:
-      - file: materials/solutions/000_Welcome.ipynb
+#  - caption: Solutions
+#    chapters:
+#      - file: materials/solutions/000_Welcome.ipynb
