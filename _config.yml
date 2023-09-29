@@ -72,3 +72,4 @@ sphinx:
       logo:
         image_light: uos_logo.png
         image_dark: uos_logo_for_dark.png
+#    html_extra_path: ["materials/lectures"]
