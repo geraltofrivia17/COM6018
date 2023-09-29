@@ -23,7 +23,7 @@ The main contents of repository can be found in the `materials` directory. This 
 
 If you have not used `git` before you may need to install it on your computer. The instructions depend on your operating system:
 
-* **Linux**: For Debian/Ubuntu run `sudo apt-get install git`` and for Fedora run`sudo dnf install git``.
+* **Linux**: For Debian/Ubuntu run `sudo apt-get install git` and for Fedora run `sudo dnf install git`.
 * **MacOS** (e.g., MacBooks): Install the latest version from [this list](https://sourceforge.net/projects/git-osx-installer/files/) by clicking on the link.
 * **Windows**: Follow the instructions at <https://gitforwindows.org/>
 
