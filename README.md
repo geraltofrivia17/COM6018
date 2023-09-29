@@ -26,3 +26,25 @@ If you have not used `git` before you may need to install it on your computer. T
 * **Linux**: For Debian/Ubuntu run `sudo apt-get install git`` and for Fedora run`sudo dnf install git``.
 * **MacOS** (e.g., MacBooks): Install the latest version from [this list](https://sourceforge.net/projects/git-osx-installer/files/) by clicking on the link.
 * **Windows**: Follow the instructions at <https://gitforwindows.org/>
+
+## Setting up your local environment
+
+First clone the repositry to your local machine:
+
+```bash
+git clone https://github.com/UOS-COM-6018/COM6018.git
+```
+
+Then make a conda environment from the `com6018.environment.yml` file and activate it,
+
+```bash
+cd COM6018
+conda env create -n com6018 -f com6018.environment.yml
+conda activate com6018
+```
+
+You should now be able to open the `ipynb` files. For example, to open the first lab class run:
+
+```bash
+jupyter notebook  materials/labs/010_python_intro.ipynb
+```
