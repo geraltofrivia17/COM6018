@@ -5,8 +5,8 @@ root: intro
 parts:
   - caption: Lectures
     chapters:
-      - file: materials/lectures/10_wrapper.md
-      - file: materials/lectures/15_wrapper.md
+      - file: materials/wrappers/10_wrapper.md
+      - file: materials/wrappers/15_wrapper.md
   - caption: Course Notes
     chapters:
       - file: materials/tutorials/000_Introduction.ipynb

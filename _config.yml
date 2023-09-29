@@ -6,7 +6,8 @@ author: Jon Barker, University of Sheffield
 copyright: "2023" # Copyright year to be placed in the footer
 logo: uos_logo.png
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+exclude_patterns:
+  [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "README.md"]
 # Auto-exclude files not in the toc
 only_build_toc_files: false
 
@@ -72,4 +73,4 @@ sphinx:
       logo:
         image_light: uos_logo.png
         image_dark: uos_logo_for_dark.png
-#    html_extra_path: ["materials/lectures"]
+    html_extra_path: ["materials/lectures"]
