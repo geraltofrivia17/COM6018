@@ -1,21 +1,23 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 format: jb-book
-root: intro
+root: intro.md
 parts:
   - caption: Lectures
     chapters:
-      - file: materials/wrappers/10_wrapper.md
-      - file: materials/wrappers/15_wrapper.md
+      - file: materials/wrappers/000_Introduction.md
+      - file: materials/wrappers/010_wrapper.md
+      - file: materials/wrappers/015_wrapper.md
   - caption: Course Notes
     chapters:
-      - file: materials/tutorials/000_Introduction.ipynb
+      - file: materials/tutorials/000_Introduction.md
       - file: materials/tutorials/010_Introducing_Python.ipynb
       - file: materials/tutorials/015_Further_Python.ipynb
   - caption: Lab Classes
     chapters:
-      - file: materials/labs/000_Welcome.ipynb
+      - file: materials/labs/000_Introduction.md
       - file: materials/labs/010_python_intro.ipynb
-#  - caption: Solutions
-#    chapters:
-#      - file: materials/solutions/000_Welcome.ipynb
+  - caption: Solutions
+    chapters:
+      - file: materials/solutions/000_Introduction.md
+      - file: materials/solutions/010_python_intro.ipynb
