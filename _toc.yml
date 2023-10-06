@@ -25,3 +25,4 @@ parts:
     chapters:
       - file: materials/solutions/000_Introduction.md
       - file: materials/solutions/010_python_intro.ipynb
+      - file: materials/solutions/020_reading_data.ipynb
