@@ -23,6 +23,7 @@ parts:
       - file: materials/labs/000_Introduction.md
       - file: materials/labs/010_python_intro.ipynb
       - file: materials/labs/020_reading_data.ipynb
+      - file: materials/labs/030_introducing_numpy.ipynb
   - caption: Solutions
     chapters:
       - file: materials/solutions/000_Introduction.md
