@@ -18,6 +18,7 @@ parts:
       - file: materials/tutorials/015_Further_Python.ipynb
       - file: materials/tutorials/020_Reading_Data.ipynb
       - file: materials/tutorials/030_Introducing_Numpy.ipynb
+      - file: materials/tutorials/040_Introducing_Pandas.ipynb
   - caption: Lab Classes
     chapters:
       - file: materials/labs/000_Introduction.md
