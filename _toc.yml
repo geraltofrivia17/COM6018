@@ -21,6 +21,7 @@ parts:
       - file: materials/tutorials/030_Introducing_Numpy.ipynb
       - file: materials/tutorials/035_Some_Common_Problems.ipynb
       - file: materials/tutorials/040_Introducing_Pandas.ipynb
+      - file: materials/tutorials/050_Introducing_Matplotlib.ipynb
   - caption: Lab Classes
     chapters:
       - file: materials/labs/000_Introduction.md
