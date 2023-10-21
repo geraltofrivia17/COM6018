@@ -34,3 +34,4 @@ parts:
       - file: materials/solutions/010_python_intro.ipynb
       - file: materials/solutions/020_reading_data.ipynb
       - file: materials/solutions/030_introducing_numpy.ipynb
+      - file: materials/solutions/040_working_with_pandas.ipynb
