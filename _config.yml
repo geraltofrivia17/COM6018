@@ -1,15 +1,21 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: COM6018 - Data Science with Python
-author: Jon Barker, University of Sheffield
+title: "COM6018 - Data Science with Python"
+author: "Jon Barker, University of Sheffield"
 copyright: "2023" # Copyright year to be placed in the footer
 logo: uos_logo.png
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns:
-  [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "README.md"]
-# Auto-exclude files not in the toc
-only_build_toc_files: false
+  [
+    _build,
+    Thumbs.db,
+    .DS_Store,
+    "**.ipynb_checkpoints",
+    "README.md",
+    "materials/assignments/*",
+  ]
+only_build_toc_files: true # Auto-exclude files not in the toc
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -18,12 +24,13 @@ execute:
   exclude_patterns:
     - "materials/labs/*"
     - "*.md"
-    - "materials/assignments/*"
+  allow_errors: true
+  stderr_output: show # One of 'show', 'remove', 'remove-warn', 'warn', 'error', 'severe'
 
 # Parse and render settings
 parse:
   myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
-    # - amsmath
+    - amsmath
     - colon_fence
     # - deflist
     - dollarmath
@@ -48,25 +55,11 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
-# Information about where the book exists on the web
-repository:
-  url: https://github.com/jonbarker68/COM6018 # Online location of your book
-  path_to_book: COM6018 # Optional path to your book, relative to the repository root
-  branch: main # Which branch of the repository should be used when creating links (optional)
-
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   use_issues_button: true
   use_repository_button: true
-
-launch_buttons:
-  colab_url: "https://colab.research.google.com"
-  notebook_interface: "classic"
-# # Best to stick to official theme as custom themes don't support many features
-# sphinx:
-#  config:
-#    html_theme: sphinx_material
 
 sphinx:
   config:
@@ -75,3 +68,16 @@ sphinx:
         image_light: uos_logo.png
         image_dark: uos_logo_for_dark.png
     html_extra_path: ["materials/lectures"]
+
+launch_buttons:
+  notebook_interface: classic
+  binderhub_url: "" # The URL of the BinderHub (e.g., https://mybinder.org)
+  jupyterhub_url: "" # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
+  thebe: false # Add a thebe button to pages (requires the repository to run on Binder)
+  colab_url: "" # The URL of Google Colab (https://colab.research.google.com)
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/UOS-COM-6018/COM6018 # Online location of your book
+  path_to_book: ""
+  branch: main # Which branch of the repository should be used when creating links (optional)
