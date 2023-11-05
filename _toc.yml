@@ -23,6 +23,7 @@ parts:
       - file: materials/tutorials/030_Introducing_Numpy.ipynb
       - file: materials/tutorials/035_Some_Common_Problems.ipynb
       - file: materials/tutorials/040_Introducing_Pandas.ipynb
+      - file: materials/tutorials/045_Common_Pandas_Mistakes.ipynb
       - file: materials/tutorials/050_Introducing_Matplotlib.ipynb
       - file: materials/tutorials/060_Introducing_Scikit_Learn.ipynb
   - caption: Lab Classes
