@@ -14,6 +14,7 @@ parts:
       - file: materials/wrappers/040_wrapper.md
       - file: materials/wrappers/050_wrapper.md
       - file: materials/wrappers/060_wrapper.md
+      - file: materials/wrappers/070_wrapper.md
   - caption: Course Notes
     chapters:
       - file: materials/tutorials/000_Introduction.md
