@@ -43,3 +43,4 @@ parts:
       - file: materials/solutions/030_introducing_numpy.ipynb
       - file: materials/solutions/040_working_with_pandas.ipynb
       - file: materials/solutions/050_using_matplotlib.ipynb
+      - file: materials/solutions/060_introducing_scikit_learn.ipynb
