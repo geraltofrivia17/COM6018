@@ -66,6 +66,7 @@ html:
 sphinx:
   config:
     html_theme_options:
+      navigation_with_keys: false
       logo:
         image_light: uos_logo.png
         image_dark: uos_logo_for_dark.png
