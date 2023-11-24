@@ -40,7 +40,7 @@ parts:
       - file: materials/labs/050_using_matplotlib.ipynb
       - file: materials/labs/060_introducing_scikit_learn.ipynb
       - file: materials/labs/070_classification_with_scikit_learn.ipynb
-      - file: materials/labs/080_curve_fitting_with_sckikit_learn.ipynb
+      - file: materials/labs/080_curve_fitting_with_scikit_learn.ipynb
   - caption: Solutions
     chapters:
       - file: materials/solutions/000_Introduction.md
@@ -51,3 +51,4 @@ parts:
       - file: materials/solutions/050_using_matplotlib.ipynb
       - file: materials/solutions/060_introducing_scikit_learn.ipynb
       - file: materials/solutions/070_classification_with_scikit_learn.ipynb
+      - file: materials/solutions/080_curve_fitting_with_scikit_learn.ipynb
